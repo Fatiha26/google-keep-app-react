@@ -7,7 +7,7 @@ const CreateNote = () => {
         <>
         <div className="main_note">
             <form action="">
-                <input type="text" placeholder='title' />
+                <input type="text" placeholder='title' autoComplete='off' />
                 <textarea placeholder='write note....'></textarea>
                 <Button>
                     <AddIcon/>
